@@ -15,7 +15,8 @@ import java.util.List;
 
 public class RvActivity extends AppCompatActivity {
     List<User> userList;
-    private RecyclerView recyclerView;
+    private RecyclerView
+            recyclerView;
 
 
     @Override

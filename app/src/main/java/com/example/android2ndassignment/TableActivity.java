@@ -39,7 +39,10 @@ public class TableActivity extends AppCompatActivity implements RadioGroup.OnChe
     AutoCompleteTextView autoComplete;
     //    CalendarView calendarView;
     String name,gender, dob, country, image, email, phone;
-    String[] images = {"ima1","ima2","ima3"};
+    String[] images = {"image1","image2","image3"
+
+    };
+
 
     String[] countries = {"Select an Option","Nepal", "Bhutan", "India", "Srilanka", "Maldives", "Myanmar", "Pakistan", "Afganistan"};
     List<User> userlist = new ArrayList<>();

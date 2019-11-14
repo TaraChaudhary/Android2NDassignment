@@ -39,8 +39,8 @@ public class UserDetail extends AppCompatActivity {
         dobtext.setText("Dob:" +dob);
         gendertext.setText("Gender:" +gender);
         countrytext.setText("Country"+country);
-        emailtext.setText(email);
-        phonetext.setText(phone);
+        emailtext.setText("Email"+email);
+        phonetext.setText("Contact"+phone);
 
         imageView.setImageResource(imageID);
 
